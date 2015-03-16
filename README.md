@@ -8,9 +8,10 @@ It have only reduce noise function for now. To use it you must put libXamarinSox
  
  To import this function in Xamarin you should write in any class like this:
  
- ```[DllImport("__Internal")]
-        private extern static void reduce_noise([MarshalAs(UnmanagedType.LPStr)]string inputPath, 
-            [MarshalAs(UnmanagedType.LPStr)]string outputPath, 
-            [MarshalAs(UnmanagedType.LPStr)]string noiseProfilePath, 
-            [MarshalAs(UnmanagedType.LPStr)]string reductionFactor);
+ ```
+ [DllImport("__Internal")]
+private extern static void reduce_noise([MarshalAs(UnmanagedType.LPStr)]string inputPath, 
+    [MarshalAs(UnmanagedType.LPStr)]string outputPath, 
+    [MarshalAs(UnmanagedType.LPStr)]string noiseProfilePath, 
+    [MarshalAs(UnmanagedType.LPStr)]string reductionFactor);
   ```
