@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223CBE521AB77A7F00460C49 /* libSox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 223CBE511AB77A7F00460C49 /* libSox.a */; };
 		22E9927B1AB4706500CC92CA /* sox.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E9927A1AB4706500CC92CA /* sox.h */; };
 		22E9927E1AB4709F00CC92CA /* soxxamarinbindings.c in Sources */ = {isa = PBXBuildFile; fileRef = 22E9927C1AB4709F00CC92CA /* soxxamarinbindings.c */; };
 		22E9927F1AB4709F00CC92CA /* soxxamarinbindings.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E9927D1AB4709F00CC92CA /* soxxamarinbindings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22E992871AB4749200CC92CA /* libSox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E992861AB4749200CC92CA /* libSox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223CBE511AB77A7F00460C49 /* libSox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSox.a; sourceTree = "<group>"; };
 		22E992731AB4703F00CC92CA /* libXamarinSoxBindings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXamarinSoxBindings.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E9927A1AB4706500CC92CA /* sox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sox.h; path = ../../../Documents/Libs/soxproject/SoxTest/iOS/SoxTest/sox.h; sourceTree = "<group>"; };
 		22E9927C1AB4709F00CC92CA /* soxxamarinbindings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soxxamarinbindings.c; sourceTree = "<group>"; };
 		22E9927D1AB4709F00CC92CA /* soxxamarinbindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soxxamarinbindings.h; sourceTree = "<group>"; };
-		22E992861AB4749200CC92CA /* libSox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSox.a; path = ../../libSox.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E992871AB4749200CC92CA /* libSox.a in Frameworks */,
+				223CBE521AB77A7F00460C49 /* libSox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +36,7 @@
 		22E9926A1AB4703F00CC92CA = {
 			isa = PBXGroup;
 			children = (
-				22E992861AB4749200CC92CA /* libSox.a */,
+				223CBE511AB77A7F00460C49 /* libSox.a */,
 				22E9927C1AB4709F00CC92CA /* soxxamarinbindings.c */,
 				22E9927D1AB4709F00CC92CA /* soxxamarinbindings.h */,
 				22E9927A1AB4706500CC92CA /* sox.h */,
